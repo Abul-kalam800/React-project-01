@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "Alice",
+      "marks": {
+        "math": 85,
+        "english": 78,
+        "physics": 90
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "marks": {
+        "math": 52,
+        "english": 65,
+        "physics": 70
+      }
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "marks": {
+        "math": 61,
+        "english": 87,
+        "physics": 89
+      }
+    },
+    {
+      "id": 4,
+      "name": "Diana",
+      "marks": {
+        "math": 94,
+        "english": 70,
+        "physics": 60
+      }
+    },
+    {
+      "id": 5,
+      "name": "Ethan",
+      "marks": {
+        "math": 78,
+        "english": 82,
+        "physics": 85
+      }
+    }
+  ]
+  

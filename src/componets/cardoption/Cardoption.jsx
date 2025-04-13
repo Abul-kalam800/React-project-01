@@ -24,7 +24,7 @@ import SingalCard from './SingalCard';
     }
   ]
    
-  const cardlinks = cardData.map((card)=><SingalCard card={card}></SingalCard>)
+  const cardlinks = cardData.map((card)=><SingalCard key={card.id} card={card}></SingalCard>)
 const Cardoption = () => {
     return (
         <div className='mx-8'>
