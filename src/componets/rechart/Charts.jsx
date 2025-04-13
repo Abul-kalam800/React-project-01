@@ -55,7 +55,9 @@ const Charts = () => {
 
     return (
         <>
-            <div className='w-9/12 mx-auto  flex flex-col justify-center items-center'>
+            <h3 className='text-5xl my-20 text-center  w-6/12 mx-auto font-bold text-green-300'> Showing Data use by Charts</h3>
+            <div className='w-9/12 mx-auto  flex flex-col justify-center items-center gap-16'>
+            <h2 className='text-3xl font-bold'>Barchart</h2>
                 <BarChart width={900} height={400} data={studentsData} margin={20}>
                     <XAxis dataKey={'id'}></XAxis>
                     <YAxis dataKey={"math"}></YAxis>
@@ -69,6 +71,7 @@ const Charts = () => {
 
         
             <div>
+            <h2 className='text-3xl font-bold'>Area Charts</h2>
                 <AreaChart width={900} height={300} data={studentsData}>
 
                    
@@ -80,6 +83,7 @@ const Charts = () => {
             </div>
 
             <div>
+            <h2 className='text-3xl font-bold'>Pie Charts</h2>
                 <PieChart width={800} height={400}>
                     <Pie dataKey={"math"} name='id' data={studentsData} fill='green' cx={'50%'} cy={'50%'} innerRadius={50}></Pie>
                     <Pie innerRadius={60} outerRadius={80} dataKey={"english"} name='id' data={studentsData} fill='red' cx={'50%'} cy={'50%'}></Pie>
